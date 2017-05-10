@@ -19,3 +19,12 @@ $bitm->getbit(1); // 1
 
 ```
 
+#### Benchmark 
+
+模拟1000w用户登录状态标识场景，使用bitmap，并使用共享内存(/dev/shm)
+
+
+- 耗时
+    time: 38.180459022522 (s)
+- 占用空间
+    -rw-r--r--  1 root root 1.2M May 10 17:01 bitm.tmp
